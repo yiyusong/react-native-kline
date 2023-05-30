@@ -11,14 +11,14 @@
 #define Color(rgbValue)  [UIColor rgbFromHex:rgbValue]
 
   //背景颜色
-#define ChartColors_bgColor   Color(0xFF18181A)
-#define ChartColors_kLineColor   Color(0xFF18181A)
-#define ChartColors_gridColor   Color(0xFF2F2F31)
+#define ChartColors_bgColor   Color(0xFFFFFFFF)
+#define ChartColors_kLineColor   Color(0xFFFFFFFF)
+#define ChartColors_gridColor   Color(0xFFF1F1F1)
 #define ChartColors_ma5Color   Color(0xffC9B885)
 #define ChartColors_ma10Color   Color(0xff6CB0A6)
 #define ChartColors_ma30Color   Color(0xff9979C6)
-#define ChartColors_upColor   Color(0xff4DAA90)
-#define ChartColors_dnColor   Color(0xffC15466)
+#define ChartColors_upColor   Color(0xff5EB989)
+#define ChartColors_dnColor   Color(0xffE35460)
 #define ChartColors_volColor   Color(0xff4729AE)
 
 #define ChartColors_macdColor   Color(0xff4729AE)
@@ -35,17 +35,17 @@
 #define ChartColors_yAxisTextColor   Color(0xff70839E)  //右边y轴刻度
 #define ChartColors_xAxisTextColor   Color(0xff60738E)  //下方时间刻度
 
-#define ChartColors_maxMinTextColor   Color(0xffffffff)  //最大最小值的颜色
+#define ChartColors_maxMinTextColor   Color(0xff000000)  //最大最小值的颜色
 
 //深度颜色
 #define ChartColors_depthBuyColor   Color(0xff60A893)
 #define ChartColors_depthSellColor   Color(0xffC15866)
 
 //选中后显示值边框颜色
-#define ChartColors_markerBorderColor   Color(0xffFFFFFF)
+#define ChartColors_markerBorderColor   Color(0xfff4f4f4)
 
 //选中后显示值背景的填充颜色
-#define ChartColors_markerBgColor   Color(0xff0D1722)
+#define ChartColors_markerBgColor   Color(0xffffffff)
 
 //实时线颜色等
 #define ChartColors_realTimeBgColor   Color(0xff0D1722)
