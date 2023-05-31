@@ -512,7 +512,7 @@
         CGContextDrawPath(context, kCGPathFill);
         [self.mainRenderer drawText:text atPoint:CGPointMake(self.frame.size.width - rect.size.width, y - rect.size.height / 2) fontSize:fontSize textColor:ChartColors_reightTextColor];
         if(_isLine) {
-            CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
+            CGContextSetFillColorWithColor(context, ChartColors_realTimeLongLineColor.CGColor);
             CGContextAddArc(context, self.frame.size.width + _scrollX - _candleWidth / 2, y, 2, 0, M_PI_2, true);
             CGContextDrawPath(context, kCGPathFill);
         }
