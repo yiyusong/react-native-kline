@@ -414,13 +414,13 @@
     
     CGFloat y = [self.mainRenderer getY:point.close];
     
-    CGContextSetStrokeColorWithColor(context, [UIColor whiteColor].CGColor);
+    CGContextSetStrokeColorWithColor(context, ChartColors_realTimeTextColor.CGColor);
     CGContextSetLineWidth(context, 0.5);
     CGContextMoveToPoint(context, 0, y);
     CGContextAddLineToPoint(context, self.frame.size.width, y);
     CGContextDrawPath(context, kCGPathStroke);
     
-    CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
+    CGContextSetFillColorWithColor(context, ChartColors_realTimeTextColor.CGColor);
     CGContextAddArc(context, curX, y, 2, 0, M_PI_2, true);
     CGContextDrawPath(context, kCGPathFill);
     [self drawLongPressCrossLineText:context curPoint:point curX:curX y:y];
