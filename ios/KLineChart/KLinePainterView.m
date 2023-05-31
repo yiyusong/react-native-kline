@@ -445,7 +445,7 @@
         CGContextAddLineToPoint(context, self.frame.size.width - textWdith, y - textHeight / 2);
         CGContextAddLineToPoint(context, self.frame.size.width, y - textHeight / 2);
         CGContextSetLineWidth(context, 1);
-        CGContextSetStrokeColorWithColor(context, ChartColors_markerBorderColor.CGColor);
+        CGContextSetStrokeColorWithColor(context, ChartColors_realTimeTextColor.CGColor);
         CGContextSetFillColorWithColor(context, ChartColors_markerBgColor.CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
         [self.mainRenderer drawText:text atPoint:CGPointMake(self.frame.size.width - textWdith - 2, y - rect.size.height / 2) fontSize:ChartStyle_defaultTextSize textColor: ChartColors_realTimeTextColor];
@@ -459,7 +459,7 @@
         CGContextAddLineToPoint(context,textWdith, y - textHeight / 2);
         CGContextAddLineToPoint(context, 0, y - textHeight / 2);
         CGContextSetLineWidth(context, 1);
-        CGContextSetStrokeColorWithColor(context, ChartColors_markerBorderColor.CGColor);
+        CGContextSetStrokeColorWithColor(context, ChartColors_realTimeTextColor.CGColor);
         CGContextSetFillColorWithColor(context, ChartColors_markerBgColor.CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
         [self.mainRenderer drawText:text atPoint:CGPointMake(2, y - rect.size.height / 2) fontSize:ChartStyle_defaultTextSize textColor: ChartColors_realTimeTextColor];
@@ -468,11 +468,11 @@
     NSString *dateText = [self calculateDateText:curPoint.id];
     CGRect dateRect = [dateText getRectWithFontSize:ChartStyle_defaultTextSize];
     CGFloat datepadding = 3;
-    CGContextSetStrokeColorWithColor(context, [UIColor whiteColor].CGColor);
+    CGContextSetStrokeColorWithColor(context, ChartColors_realTimeTextColor.CGColor);
     CGContextSetFillColorWithColor(context, [UIColor colorWithHexString:_mainBackgroundColor].CGColor);
     CGContextAddRect(context, CGRectMake(curX - dateRect.size.width / 2 - datepadding, CGRectGetMinY(self.dateRect), dateRect.size.width + datepadding * 2, dateRect.size.height + datepadding * 2));
     CGContextDrawPath(context, kCGPathFillStroke);
-    [self.mainRenderer drawText:dateText atPoint:CGPointMake(curX - dateRect.size.width  / 2, CGRectGetMinY(self.dateRect) + datepadding) fontSize:ChartStyle_defaultTextSize textColor: [UIColor whiteColor]];
+    [self.mainRenderer drawText:dateText atPoint:CGPointMake(curX - dateRect.size.width  / 2, CGRectGetMinY(self.dateRect) + datepadding) fontSize:ChartStyle_defaultTextSize textColor: ChartColors_realTimeTextColor];
     self.showInfoBlock(curPoint, isLeft);
     [self drawTopText:context curPoint:curPoint];
 }
