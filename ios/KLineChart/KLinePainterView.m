@@ -448,7 +448,7 @@
         CGContextSetStrokeColorWithColor(context, ChartColors_markerBorderColor.CGColor);
         CGContextSetFillColorWithColor(context, ChartColors_markerBgColor.CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
-        [self.mainRenderer drawText:text atPoint:CGPointMake(self.frame.size.width - textWdith - 2, y - rect.size.height / 2) fontSize:ChartStyle_defaultTextSize textColor: [UIColor whiteColor]];
+        [self.mainRenderer drawText:text atPoint:CGPointMake(self.frame.size.width - textWdith - 2, y - rect.size.height / 2) fontSize:ChartStyle_defaultTextSize textColor: ChartColors_realTimeTextColor.CGColor];
     } else {
         isLeft = false;
         CGContextMoveToPoint(context, 0, y - textHeight / 2);
@@ -462,7 +462,7 @@
         CGContextSetStrokeColorWithColor(context, ChartColors_markerBorderColor.CGColor);
         CGContextSetFillColorWithColor(context, ChartColors_markerBgColor.CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
-        [self.mainRenderer drawText:text atPoint:CGPointMake(2, y - rect.size.height / 2) fontSize:ChartStyle_defaultTextSize textColor: [UIColor whiteColor]];
+        [self.mainRenderer drawText:text atPoint:CGPointMake(2, y - rect.size.height / 2) fontSize:ChartStyle_defaultTextSize textColor: ChartColors_realTimeTextColor.CGColor];
     }
     
     NSString *dateText = [self calculateDateText:curPoint.id];
