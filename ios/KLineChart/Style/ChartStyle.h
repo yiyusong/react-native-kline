@@ -13,7 +13,7 @@
   //背景颜色
 #define ChartColors_bgColor   Color(0xFFFFFFFF)
 #define ChartColors_kLineColor   Color(0xFFFFFFFF)
-#define ChartColors_gridColor   Color(0xFFF2F2F2)
+#define ChartColors_gridColor   Color(0xFFCCCCCC)
 #define ChartColors_ma5Color   Color(0xffC9B885)
 #define ChartColors_ma10Color   Color(0xff6CB0A6)
 #define ChartColors_ma30Color   Color(0xff9979C6)
