@@ -13,7 +13,7 @@
   //背景颜色
 #define ChartColors_bgColor   Color(0xFFFFFFFF)
 #define ChartColors_kLineColor   Color(0xFFFFFFFF)
-#define ChartColors_gridColor   Color(0xFF777777)
+#define ChartColors_gridColor   Color(0xFFF2F2F2)
 #define ChartColors_ma5Color   Color(0xffC9B885)
 #define ChartColors_ma10Color   Color(0xff6CB0A6)
 #define ChartColors_ma30Color   Color(0xff9979C6)
@@ -42,10 +42,10 @@
 #define ChartColors_depthSellColor   Color(0xffC15866)
 
 //选中后显示值边框颜色
-#define ChartColors_markerBorderColor   Color(0xfff4f4f4)
+#define ChartColors_markerBorderColor   Color(0xFFF4F4F4)
 
 //选中后显示值背景的填充颜色
-#define ChartColors_markerBgColor   Color(0xffffffff)
+#define ChartColors_markerBgColor   Color(0xFFF2F2F2)
 
 //实时线颜色等
 #define ChartColors_realTimeBgColor   Color(0xff0D1722)
@@ -59,8 +59,8 @@
 
 
 //表格右边文字颜色
-#define ChartColors_reightTextColor   Color(0xFF70839E)
-#define ChartColors_bottomDateTextColor   Color(0xFF70839E)
+#define ChartColors_reightTextColor   Color(0xFF666F80)
+#define ChartColors_bottomDateTextColor   Color(0xFF666F80)
 
 #define ChartColors_crossHlineColor   Color(0x1FFFFFFF)
 
