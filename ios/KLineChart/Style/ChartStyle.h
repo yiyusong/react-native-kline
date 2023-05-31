@@ -13,7 +13,7 @@
   //背景颜色
 #define ChartColors_bgColor   Color(0xFFFFFFFF)
 #define ChartColors_kLineColor   Color(0xFFFFFFFF)
-#define ChartColors_gridColor   Color(0xFFF1F1F1)
+#define ChartColors_gridColor   Color(0xFF777777)
 #define ChartColors_ma5Color   Color(0xffC9B885)
 #define ChartColors_ma10Color   Color(0xff6CB0A6)
 #define ChartColors_ma30Color   Color(0xff9979C6)
@@ -59,8 +59,8 @@
 
 
 //表格右边文字颜色
-#define ChartColors_reightTextColor   Color(0xff70839E)
-#define ChartColors_bottomDateTextColor   Color(0xff70839E)
+#define ChartColors_reightTextColor   Color(0xFF70839E)
+#define ChartColors_bottomDateTextColor   Color(0xFF70839E)
 
 #define ChartColors_crossHlineColor   Color(0x1FFFFFFF)
 
