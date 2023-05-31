@@ -48,10 +48,10 @@
 #define ChartColors_markerBgColor   Color(0xFFF2F2F2)
 
 //实时线颜色等
-#define ChartColors_realTimeBgColor   Color(0xff0D1722)
-#define ChartColors_rightRealTimeTextColor   Color(0xff4C86CD)
-#define ChartColors_realTimeTextBorderColor   Color(0xffffffff)
-#define ChartColors_realTimeTextColor   Color(0xffffffff)
+#define ChartColors_realTimeBgColor   Color(0xFF0D1722)
+#define ChartColors_rightRealTimeTextColor   Color(0xFF4C86CD)
+#define ChartColors_realTimeTextBorderColor   Color(0xFF666F80)
+#define ChartColors_realTimeTextColor   Color(0xFF666F80)
 
 //实时线
 #define ChartColors_realTimeLineColor   Color(0xFF777777)
@@ -62,7 +62,7 @@
 #define ChartColors_reightTextColor   Color(0xFF666F80)
 #define ChartColors_bottomDateTextColor   Color(0xFF666F80)
 
-#define ChartColors_crossHlineColor   Color(0x1FFFFFFF)
+#define ChartColors_crossHlineColor   Color(0x1FAAAAAA)
 
 static CGFloat dd = 11.0;
 //点与点的距离（）不用这种方式实现
