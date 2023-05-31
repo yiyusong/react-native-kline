@@ -54,15 +54,15 @@
 #define ChartColors_realTimeTextColor   Color(0xffffffff)
 
 //实时线
-#define ChartColors_realTimeLineColor   Color(0xffffffff)
-#define ChartColors_realTimeLongLineColor   Color(0xff4C86CD)
+#define ChartColors_realTimeLineColor   Color(0xFFFFFFFF)
+#define ChartColors_realTimeLongLineColor   Color(0xFF4C86CD)
 
 
 //表格右边文字颜色
 #define ChartColors_reightTextColor   Color(0xFF666F80)
 #define ChartColors_bottomDateTextColor   Color(0xFF666F80)
 
-#define ChartColors_crossHlineColor   Color(0x1FFFFFFF)
+#define ChartColors_crossHlineColor   Color(0xFF777777)
 
 static CGFloat dd = 11.0;
 //点与点的距离（）不用这种方式实现
