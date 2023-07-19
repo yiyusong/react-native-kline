@@ -17,8 +17,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/472647301/react-native-kline.git",
-    "baseUrl": "https://github.com/472647301/react-native-kline"
+    "url": "git+https://github.com/yiyusong/react-native-kline.git",
+    "baseUrl": "https://github.com/yiyusong/react-native-kline"
   },
   "keywords": [
     "react-native"
